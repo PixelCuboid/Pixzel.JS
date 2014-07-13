@@ -1,0 +1,25 @@
+{
+  "name": "PixzelJS",
+  "version": "0.1.0",
+  "description": "PixzelJS Game Engine",
+  "main": "build/Pixzel.js",
+  "scripts": {
+    "test": "node Pixzel.js"
+  },
+  "author": {
+    "name": "Abderlahman Hamada",
+    "contact": "abdul.hamada@hotmail.fi"
+  },
+  "license": "MIT",
+  "keywords": [
+    "HTML5",
+    "javascript",
+    "framework",
+    "pixel",
+    "game",
+    "web audio"
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
