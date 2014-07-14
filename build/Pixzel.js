@@ -14,7 +14,7 @@ Pixzel.start = function Pixzel.start() {
         context = null;
 
     //Setting the canvas
-    AI.setupCanvas = function (width, height, maximize) {
+    AI.setupCanvas = function (width, height, maximize, fullscreen) {
         this.width = 320;
         this.height = 320;
 
@@ -30,19 +30,6 @@ Pixzel.start = function Pixzel.start() {
             this.width = window.innerWidth;
             this.height = window.innerHeight;
         }
-
-        var canvas = document.createElement("canvas");
-        canvas.width = this.width;
-        canvas.height = this.height;
-        canvas.id = "Canvas";
-
-        document.body.appendChild(canvas);
-
-        context = AI.getContext2D();
-    };
-
-    AI.getContext2D = function() {
-    	return canvas.getContext("2d");
     };
 
     return AI;
